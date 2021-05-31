@@ -1,0 +1,212 @@
+body{
+  background-size: 400px;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header{
+  background: linear-gradient(to right , skyblue, pink);
+  padding-top: 10px;
+  min-height: 70px;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+.brand{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.logo{
+  margin-top: 0;
+  padding-top: 0;
+  text-align: left;
+}
+
+header #brand{
+  float: left;
+}
+header #brand h1{
+  float: left;
+  color: purple;
+  font-family: sans-serif;
+  font-style: bold;
+  
+}
+
+header #brand img{
+  float: left;
+  padding-top: 0;
+}
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header a{
+  color: grey;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+header #brand, header .active a{
+  color: grey;
+  font-weight: bold;
+
+}
+
+header a:hover {
+  color: palevioletred;
+  font-weight: bold;
+}
+#showcase{
+  min-height: 365px;
+  background: url(img/exo.jpg);
+
+}
+#showcase h1{
+  color: aqua;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 55px;
+  margin-bottom: 5px;
+  text-shadow: 5px 5px 5px yellowgreen;
+
+}
+
+#showcase p{
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-shadow: 5px 5px 5px purple;
+
+}
+#aeri{
+  background: url(img/background2.jpg) 50px 50px;
+  background-size: 100px;
+  height: 100px;
+  background-repeat: repeat;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: deeppink;
+  text-shadow:5px 5px 5px aqua;
+  text-align: center;
+  padding-top: 10px;
+}
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 10px;
+}
+#boxes .box img{
+  width: 100px;
+}
+#brand .wlc{
+  text-align: center;
+}
+  footer{
+    background: linear-gradient(to right , skyblue, pink);
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    color: purple;
+
+  }
+  footer p{text-align: center;}
+  @media (max-width: 768px){
+    header #brand,
+    header nav,
+    header nav li 
+    #aeri,
+    #boxes .box
+    {
+       float: none;
+       text-align: center;
+       width: 100%;
+    }
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.cover{
+    background: url(img/background2.jpg);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.login{
+    background: transparent;
+    color:black;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 330px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;  
+    border-radius: 10px;
+    border-style: dotted;
+
+}
+.profil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+ .login p{
+     margin: 0;
+     top: 0;
+     font-weight: bold;
+ }
+
+ button{
+     background-color: greenyellow;
+     
+ }
+  

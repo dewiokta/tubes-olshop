@@ -1,0 +1,155 @@
+body{
+    background: url(img/background2.jpg);
+    background-size: 200px;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+  
+  }
+  
+  .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  header{
+    background: linear-gradient(to right , skyblue, pink);
+    padding-top: 10px;
+    min-height: 70px;
+  }
+  img{
+      width: 80px;
+      height: 80px;
+  }
+  .brand{
+      color: black;
+      font-size: 50px;
+      text-align: center;
+  }
+  .logo{
+    margin-top: 0;
+    padding-top: 0;
+    text-align: left;
+  }
+  
+  header #brand{
+    float: left;
+  }
+  header #brand h1{
+    float: left;
+    color: purple;
+    font-family: sans-serif;
+    font-style: bold;
+    
+  }
+  
+  header #brand img{
+    float: left;
+    padding-top: 0;
+  }
+  header nav{
+    float: right;
+    margin-top: 10px;
+  }
+  
+  header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  header a{
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+  
+  }
+  
+  header #brand, header .active a{
+    color: grey;
+    font-weight: bold;
+  
+  }
+  
+  header a:hover {
+    color: palevioletred;
+    font-weight: bold;
+  }
+
+  #boxes{
+    margin-top: 20px;
+  }
+  
+  #boxes .box{
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+  }
+  #boxes .box img{
+    width: 100px;
+  }
+  #brand .wlc{
+    text-align: center;
+  }
+    footer{
+      background: linear-gradient(to right , skyblue, pink);
+      margin-top: 20px;
+      padding: 10px;
+      text-align: center;
+      color: purple;
+  
+    }
+    footer p{text-align: center;}
+    @media (max-width: 768px){
+      header #brand,
+      header nav,
+      header nav li 
+      #aeri,
+      #boxes .box
+      {
+         float: none;
+         text-align: center;
+         width: 100%;
+      }
+    }
+
+    .kontainer h1{
+      text-align: center;
+      color: purple;
+    }
+    .col-md-3 {
+      display: inline-block;
+      border-radius: 10px;
+      text-align: center;
+      background-color: lightcyan;
+      width: 20%;
+      padding: 10px;
+      margin-left: 30px;
+      margin-bottom: 20px;
+      height: 300px;
+      width: 250px;
+      top: 300px;
+      
+    }
+    .col-md-3 img{
+      width: 100px;
+      height: 140px;
+
+    }
+
+    .col-md-3 .buy  { 
+      font-size: 12px;
+      background-color: hotpink;
+      padding: 5px 10px;
+      border: 1px solid palevioletred;
+      border-radius: 5px;
+      font-family: sans-serif;
+      font-weight: bold;
+
+    }
+  
